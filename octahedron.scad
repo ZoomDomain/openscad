@@ -1,3 +1,5 @@
+// Note that it generates a 20 vertex octo in openscad
+
 module box(size) {
     cube([2*size, 2*size, size], center = true); 
 }
